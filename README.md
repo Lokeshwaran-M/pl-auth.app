@@ -1,8 +1,8 @@
 # pl-auth.app
 
-Mobile App for pl-auth services where the application provides a passwordless authentication servies were it uses a key token model for exchange of auth status and authenticate users using Biometric Prompt (Android) or FaceID it registers or logs the user in
+Mobile App for [pl-auth](https://github.com/Lokeshwaran-M/pl-auth) services where the application provides a passwordless authentication servies were it uses a key token model for exchange of auth status and authenticate users using Biometric Prompt (Android) or FaceID it registers or logs the user in
 
-> note : The pl-auth is under development not yet fully developed
+> note : The pl-auth app and pl-auth services is under development not yet fully developed
 
 ## Docs
 
@@ -19,17 +19,30 @@ npm start
 
 ## App ScreenShots
 
-<!-- ![Alt text](git-img/auth0.jpg?raw=true "Optional Title")
+<div class="screenshot-container" style="display: flex; justify-content: center">
+<div style="width: 50%; border: 5px solid black;">
+
+![Alt text](git-img/auth0.jpg?raw=true "Optional Title")
+
+</div>
+<div style="width: 50%; border: 5px solid black;">
+
 ![Alt text](git-img/auth1.jpg?raw=true "Optional Title")
-![Alt text](git-img/auth2.jpg?raw=true "Optional Title")
-![Alt text](git-img/auth3.jpg?raw=true "Optional Title") -->
+
+</div>
+</div>
 
 <div class="screenshot-container" style="display: flex; justify-content: center">
-  <img src="git-img/auth0.jpg" alt="Screenshot 1" style="width: 50%; border: 5px solid black;">
-  <img src="git-img/auth1.jpg" alt="Screenshot 2" style="width: 50%; border: 5px solid black;">
+<div style="width: 50%; border: 5px solid black;">
+
+![Alt text](git-img/auth2.jpg?raw=true "Optional Title")
+
+
 </div>
-<div class="screenshot-container" style="display: flex; justify-content: center">
-  <img src="git-img/auth2.jpg" alt="Screenshot 3" style="width: 50%; border: 5px solid black;">
-  <img src="git-img/auth3.jpg" alt="Screenshot 4" style="width: 50%; border: 5px solid black;">
+<div style="width: 50%; border: 5px solid black;">
+
+![Alt text](git-img/auth3.jpg?raw=true "Optional Title")
+
+</div>
 </div>
 
