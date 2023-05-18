@@ -20,15 +20,13 @@ npm start
 ## App ScreenShots
 
 
-![Alt text](git-img/auth0.jpg?raw=true "Optional Title")
+![ss1](./git-img/auth0.jpg)  
 
+![ss2](./git-img/auth1.jpg)
 
-![Alt text](git-img/auth1.jpg?raw=true "Optional Title")
+![ss3](./git-img/auth2.jpg)
 
+![ss4](./git-img/auth3.jpg)
 
-![Alt text](git-img/auth2.jpg?raw=true "Optional Title")
-
-
-![Alt text](git-img/auth3.jpg?raw=true "Optional Title")
 
 
