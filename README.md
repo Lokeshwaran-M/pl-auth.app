@@ -19,30 +19,16 @@ npm start
 
 ## App ScreenShots
 
-<div class="screenshot-container" style="display: flex; justify-content: center">
-<div style="width: 50%; border: 5px solid black;">
 
 ![Alt text](git-img/auth0.jpg?raw=true "Optional Title")
 
-</div>
-<div style="width: 50%; border: 5px solid black;">
 
 ![Alt text](git-img/auth1.jpg?raw=true "Optional Title")
 
-</div>
-</div>
-
-<div class="screenshot-container" style="display: flex; justify-content: center">
-<div style="width: 50%; border: 5px solid black;">
 
 ![Alt text](git-img/auth2.jpg?raw=true "Optional Title")
 
 
-</div>
-<div style="width: 50%; border: 5px solid black;">
-
 ![Alt text](git-img/auth3.jpg?raw=true "Optional Title")
 
-</div>
-</div>
 
