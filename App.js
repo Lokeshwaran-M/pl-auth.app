@@ -1,25 +1,43 @@
 
 
 
-import React from 'react';
+import React , { useState }from 'react';
 import { StyleSheet, Text, TouchableOpacity, View ,Button} from 'react-native';
 import Register from './components/Register';
 import Login from './components/Login';
 
+import * as LocalAuthentication from 'expo-local-authentication';
+
 export default function App() {
-  const [showRegister, setShowRegister] = React.useState(false);
-  const [showLogin, setShowLogin] = React.useState(false);
+  const [showRegister, setShowRegister] = useState(false);
+  const [showLogin, setShowLogin] = useState(false);
+  const [authResult, setAuthResult] = useState('');
 
-  const handleRegister = () => {
-    setShowRegister(true);
-    setShowLogin(false);
+  async function handleRegister() {
+    let result = await LocalAuthentication.authenticateAsync();
+    if (result.success) {
+      setShowRegister(true);
+      setShowLogin(false);
+      setAuthResult('Authentication successful!');
+    } else {
+      setAuthResult('Authentication failed.');
+    }
+
+
   };
 
-  const handleLogin = () => {
-    setShowRegister(false);
-    setShowLogin(true);
-  };
+  async function handleLogin() {
+    let result = await LocalAuthentication.authenticateAsync();
+    if (result.success) {
+      setShowRegister(false);
+      setShowLogin(true);
+      setAuthResult('Authentication successful!');
+    } else {
+      setAuthResult('Authentication failed.');
+    }
 
+ 
+  };
 
 
   return (

@@ -4,6 +4,12 @@ Mobile App for [pl-auth](https://github.com/Lokeshwaran-M/pl-auth) services wher
 
 > note : The pl-auth app and pl-auth services is under development not yet fully developed
 
+## To Download apk 
+
+download the apk file [pl-auth.app](./build/pl-auth.apk)
+
+> note : the node api is not up and running and the url is still in localhost so the app will not preform the api requests
+
 ## Docs
 
 [Documentation](https://github.com/Lokeshwaran-M/dev-docs/blob/main/expo-react-native-app/init.expo-react-native-app.docs.md) to build this app or any app using expo react native
