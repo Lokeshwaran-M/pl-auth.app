@@ -8,7 +8,7 @@ Mobile App for [pl-auth](https://github.com/Lokeshwaran-M/pl-auth) services wher
 
 download the apk file [pl-auth.app](./build/pl-auth.apk)
 
-> note : the node api is not up and running and the url is still in localhost so the app will not preform the api requests
+> note : the node api [pl-auth.api](https://github.com/Lokeshwaran-M/pl-auth.api.git) is not up and running and the url is still in localhost so the app will not preform the api requests
 
 ## Docs
 
